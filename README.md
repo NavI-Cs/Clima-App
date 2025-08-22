@@ -1,12 +1,30 @@
-# React + Vite
+# ☁️ Clima App (Ionic + React + OpenWeather)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+App híbrida simple que consulta la API de OpenWeather y muestra la **temperatura** y **descripción** del clima por ciudad.
+React + Vite
 
-Currently, two official plugins are available:
+Ionic React (UI)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+OpenWeatherMap API
 
-## Expanding the ESLint configuration
+## Requisitos
+- Node 18+
+- API Key de OpenWeather (gratuita)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Instalación
+Clona el directorio 
+https://github.com/NavI-Cs/Clima-App.git
+instala las dependencias 
+npm install
+genera TU key app e ingresala en el archivo .env
+ VITE_OPENWEATHER_API_KEY=TU_API_KEY_AQUI
+Ejecuta el proyecto con 
+npm run dev
+Para ANDROID
+npm run build
+npx cap add android
+npx cap open android
+<img width="538" height="943" alt="image" src="https://github.com/user-attachments/assets/2ded263b-8faf-4e5d-ba6d-6e2620f0a7df" />
+<img width="519" height="887" alt="image" src="https://github.com/user-attachments/assets/a969ecba-5b58-4945-8641-04957cdfb26e" />
+
+
